@@ -4,7 +4,7 @@ from langchain_groq import ChatGroq
 app = Flask(__name__)
 
 # Setup API Key
-groq_api_key = "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"
+groq_api_key = ""
 
 # Initialize Groq LLM
 llm_groq = ChatGroq(
