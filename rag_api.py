@@ -22,7 +22,7 @@ embeddings = HuggingFaceEmbeddings(model_name='all-MiniLM-L6-v2')
 global_vector_store = None
 
 # Updated Groq API key
-groq_api_key = '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'
+groq_api_key = ''
 llm_groq = ChatGroq(
     groq_api_key=groq_api_key,
     model_name="llama3-70b-8192",
